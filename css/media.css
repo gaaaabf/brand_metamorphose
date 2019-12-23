@@ -1,0 +1,369 @@
+.brand-view h1#page-title {
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 36px;
+    margin: 10px 0px 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.brand-view h2:before {
+    content: none;
+}
+
+.brand-view h2 {
+  font-size: 1.2em;
+  border-bottom: 0;
+  padding: 0px;
+  margin: 0px
+}
+
+.brand-view .contents {
+    border-bottom: 0;
+    width: 690px;
+}
+
+.brand-view .views-row {
+    border-bottom: 2px solid #000;
+    padding: 20px 0;
+}
+
+.brand-view .details {
+    padding: 20px;
+    min-height: 180px;
+    display: inline-table;
+}
+
+/* Pagination */
+
+.brand-view nav.pager {
+    text-align: center;
+}
+
+.brand-view .btn-light:not(:disabled):not(.disabled).active {
+  background: #000;
+  color: #fff;
+}
+
+.brand-view .btn-light:hover {
+    background-color: #ffff;
+    border-color: #ffff;
+}
+
+.brand-view li.btn.pager__item.active.btn.btn-light a {
+    color: white;
+}
+.brand-view .btn-light:not(:disabled):not(.disabled).active a {
+    color: white;
+}
+
+.brand-view .pager {
+    margin: 20px 0 0;
+}
+
+.brand_view .details > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.brand-view .btn-light {
+    color: #212529;
+    background-color: white;
+    border-color: white;
+}
+
+.brand-view a.rightarrow::after {
+  content: "\f054";
+  font-family: "FontAwesome";
+  margin: 0 0 0 5px;
+}
+
+.brand-view a.rightarrow {
+    display: block;
+    width: 75px;
+    line-height: 26px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+.brand-view .details > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-view .image {
+    width: 260px;
+    margin: 0 30px 0 0;
+    text-align: center;
+}
+
+.brand-view .details > div.foot {
+    display: table-footer-group;
+}
+
+
+p {
+    line-height: 1.5em!important;
+}
+
+@media (max-width: 768px){
+  
+    #main {
+        width: 90%;
+        padding-top: 0!important;
+        /*padding: 70px 0 0;*/
+    }
+
+    .brand-view .details {
+        padding: 10px 0;
+    }
+
+    .brand-view .image {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .brand-view h1#page-title {
+        font-size: 28px;
+    }
+
+    .brand-view h2.sp {
+        margin: 0 0 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .brand-view .contents {
+        width: auto;
+        padding: 10px 0 0;
+    }
+
+}
+
+/* ======== HEADER ========== */
+
+/*--mmenu--*/
+#hamburger {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+
+.hamburger span,
+.hamburger::before,
+.hamburger::after{
+  background: #222;
+  content: '';
+  display: block;
+  width: 22px;
+  height: 2px;
+  position: absolute;
+  left: 7px;
+}
+
+.hamburger::before{top:8px;}
+.hamburger span{top:16px;}
+.hamburger::after{top:24px;}
+.mm-navbar{height: auto;}
+
+#block-sitemenu {
+    font-size: 16px;
+    color: #585858;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    font-family: 'Frank Ruhl Libre',sans-serif;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 5;
+    padding: 10px 0;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.15);
+}
+
+#block-sitemenu nav ul {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+#block-sitemenu ul li {
+    line-height: 20px;
+}
+.scale a {
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.scale a:hover {
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+}
+
+#logo {
+    padding: 10px 0 20px;
+}
+
+.scale li.home, li.contact {
+    display: none;
+}
+
+div#block-hamburger {
+    display: none;
+}
+
+.current {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px){
+
+
+    #block-sitemenu {
+        display: none;
+    }
+
+    .scale li.home, li.contact {
+    display: block;
+    }
+
+    .scale li.home, li.contact {
+    display: block;
+    }
+
+
+    div#block-hamburger {
+        display: block;
+        display: block;
+        position: absolute;
+        top: 20%;
+    }
+    .inner {
+        position: relative;
+        width: 100%;
+    }
+
+    #logo {
+        width: 70%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 576px){
+    #main {
+        padding: 30px 0 0!important;
+    }
+
+    #header {
+        padding: 0;
+    }
+}
+
+
+/* ---------- Recruit -------------- */
+
+.mb15 {
+    margin-bottom: 15px !important;
+}
+
+
+/* ---------- Homepage ------------- */
+
+#carouselSliderDesk .carousel-inner{
+    height: 598px;
+}
+
+#block-slide .carousel-indicators li {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    border: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#block-slide .carousel-indicators {
+    bottom: 10px;
+}
+
+
+#loader {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #fff;
+    opacity: 1.0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#carouselSliderMob {
+    display: none;
+}
+
+@media (max-width: 768px){
+    #carouselSliderDesk {
+        display: none;
+    }
+
+    #carouselSliderMob {
+    display: block;
+    }
+
+    #carouselSliderMob .carousel-inner {
+        display: block;
+        height: 754px;
+    }
+
+    #carouselSliderMob .d-block {
+        height: 754px;
+        object-fit: cover;
+    }
+
+    #carouselSliderMob .carousel-control-prev, #carouselSliderMob .carousel-control-next {
+        width: 15%;
+    }
+
+}

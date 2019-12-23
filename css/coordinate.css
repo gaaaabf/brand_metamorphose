@@ -1,0 +1,126 @@
+/*COORDINATE*/
+
+#main .brandsite-coordinate h1:before {
+  font-family: FontAwesome;
+  content: "\f04d";
+  transform: rotate(45deg);
+  display: inline-block;
+  margin: 0 12px 0 0;
+  font-size: 0.8em;
+}
+
+#main .brandsite-coordinate h1 {
+  font-family: 'Frank Ruhl Libre',sans-serif;
+  font-size: 36px;
+  margin: 10px 0 30px;
+}
+
+.brandsite-coordinate .productlist_item {
+	padding: 5px;
+}
+
+.brandsite-coordinate img {
+	height: 20rem;
+	object-fit: cover;
+}
+
+
+.brandsite-coordinate .fr img {
+	height: auto;
+	width: auto;
+}
+
+.brandsite-coordinate .detail_btn a {
+	margin: auto;
+}
+
+.brandsite-coordinate a.rightarrow::after {
+  content: "\f054";
+  font-family: "FontAwesome";
+  margin: 0 0 0 5px;
+}
+
+.views-field-field-coordinate-image {
+	text-align: center;
+}
+
+/*COORDINATE PAGER*/
+
+.brandsite-coordinate nav.pager {
+  text-align: center;
+}
+
+.brandsite-coordinate .btn-light {
+  color: #212529;
+  background-color: white;
+  border-color: white;
+}
+
+.brandsite-coordinate .btn-light:not(:disabled):not(.disabled).active {
+  background: #000;
+  color: #fff;
+}
+
+.brandsite-coordinate .btn-light:hover {
+  background-color: #ffff;
+  border-color: #ffff;
+}
+
+.brandsite-coordinate li.btn.pager__item.active.btn.btn-light a {
+  color: white;
+}
+
+.brandsite-coordinate .btn-light:not(:disabled):not(.disabled).active a {
+  color: white;
+}
+
+.brandsite-coordinate .pager {
+  margin: 20px 0 0;
+}
+
+/*COORDINATE COMMON*/
+
+.brandsite-coordinate .view-header, .brandsite-coordinate-slideshow .view-header {
+  margin: 0 !important;
+} 
+
+
+.brandsite-coordinate a:hover, .brandsite-coordinate-slideshow a:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  transition: .5s;
+}
+
+.coordinate_btn {
+	display: none;
+}
+
+.coordinate_btn a, .coordinate_btn a {
+  margin: 0px !important;
+} 
+
+@media (max-width: 768px){
+
+	.brandsite-coordinate .fl, .brandsite-coordinate-slideshow .fl {
+		float: left !important;
+	}
+	.brandsite-coordinate .fr, .brandsite-coordinate-slideshow .fr {
+		float: right !important;
+	}
+	.coordinate_btn {
+		display: block;
+	} 
+}
+
+/*COORDINATE-SLIDESHOW*/
+
+.brandsite-coordinate-slideshow .carousel img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+.brandsite-coordinate-slideshow .carousel-control-next, .brandsite-coordinate-slideshow .carousel-control-prev {
+  width: 30%
+}
+
